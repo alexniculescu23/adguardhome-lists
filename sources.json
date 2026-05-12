@@ -42,10 +42,11 @@
     },
     {
       "id": "phishing_army_extended",
-      "name": "Phishing Army Extended",
-      "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "name": "Phishing Army",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "AdGuard HostlistsRegistry re-hosted/optimized URL; upstream is phishing.army extended list."
     },
     {
       "id": "urlhaus",
