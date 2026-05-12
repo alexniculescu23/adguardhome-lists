@@ -61,6 +61,102 @@
       "url": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt",
       "type": "adblock",
       "enabled": true
+    },
+    {
+      "id": "adguard_dns_filter",
+      "name": "AdGuard DNS filter",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Official AdGuard DNS-level general filter."
+    },
+    {
+      "id": "adguard_dns_popup_hosts",
+      "name": "AdGuard DNS Popup Hosts filter",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "DNS-level popup host blocking."
+    },
+    {
+      "id": "awavenue_ads_rule",
+      "name": "AWAvenue Ads Rule",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_53.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Android/app advertising SDK blocking."
+    },
+    {
+      "id": "shadowwhisperer_tracking",
+      "name": "ShadowWhisperer Tracking List",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_69.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Analytics, diagnostics, metrics, location and IP detection trackers."
+    },
+    {
+      "id": "nocoin",
+      "name": "NoCoin Filter List",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_8.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Browser-based crypto mining protection."
+    },
+    {
+      "id": "big_hacked_malware_sites",
+      "name": "The Big List of Hacked Malware Web Sites",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_9.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Compromised/hacked malware websites."
+    },
+    {
+      "id": "hagezi_dyndns",
+      "name": "HaGeZi DynDNS Blocklist",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_54.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Dynamic DNS services abused in phishing/malware campaigns."
+    },
+    {
+      "id": "hagezi_badware_hoster",
+      "name": "HaGeZi Badware Hoster Blocklist",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_55.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "Free/user-content hosters abused for badware."
+    },
+    {
+      "id": "hagezi_dns_rebind",
+      "name": "HaGeZi DNS Rebind Protection",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_71.txt",
+      "type": "adblock",
+      "enabled": true,
+      "note": "DNS rebinding protection."
+    },
+    {
+      "id": "hagezi_abused_tlds",
+      "name": "HaGeZi Most Abused TLDs",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt",
+      "type": "adblock",
+      "enabled": false,
+      "note": "Aggressive/problematic-risk. Enable only if you accept possible breakage."
+    },
+    {
+      "id": "hagezi_doh_vpn_proxy_bypass",
+      "name": "HaGeZi DoH/VPN/Proxy Bypass",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt",
+      "type": "adblock",
+      "enabled": false,
+      "note": "Policy list. Blocks bypass methods; may break VPN/DoH/proxy workflows."
+    },
+    {
+      "id": "onehosts_xtra",
+      "name": "1Hosts Xtra",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_70.txt",
+      "type": "adblock",
+      "enabled": false,
+      "note": "Very aggressive. Registry marks it as potentially disruptive."
     }
   ]
 }

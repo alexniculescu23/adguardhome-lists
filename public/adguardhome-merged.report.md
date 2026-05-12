@@ -1,26 +1,26 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-05-12T06:46:50.045Z`
+Compiled at: `2026-05-12T06:55:46.498Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-05-12T06-46-50-045Z.txt`
-- Output bytes: **36,219,933**
-- Output non-comment rules: **1,673,951**
-- Output unique textual rules: **1,673,951**
-- Output normalized domains: **1,673,534**
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-05-12T06-55-46-498Z.txt`
+- Output bytes: **38,520,808**
+- Output non-comment rules: **1,780,098**
+- Output unique textual rules: **1,780,098**
+- Output normalized domains: **1,777,753**
 
 ## Input summary before HostlistCompiler
 
-- Sources: **8**
-- Raw non-comment rules: **2,127,021**
-- Sum of unique textual rules per source: **2,127,020**
-- Global unique textual rules: **1,806,934**
-- Duplicate textual entries across sources: **320,086** (15.05%)
-- Sum of normalized domains per source: **2,125,733**
-- Global unique normalized domains: **1,721,513**
-- Duplicate normalized-domain entries across sources: **404,220** (19.02%)
+- Sources: **17**
+- Raw non-comment rules: **2,423,197**
+- Sum of unique textual rules per source: **2,423,196**
+- Global unique textual rules: **1,961,206**
+- Duplicate textual entries across sources: **461,990** (19.07%)
+- Sum of normalized domains per source: **2,421,152**
+- Global unique normalized domains: **1,873,259**
+- Duplicate normalized-domain entries across sources: **547,893** (22.63%)
 
 ## List usefulness
 
@@ -30,29 +30,43 @@ Sorted by unique normalized domains contributed.
 
 - Raw rules: **1,292,988**
 - Normalized domains: **1,292,988**
-- Unique domains contributed: **1,060,823** (82.04%)
-- Overlap with other lists: **232,165** (17.96%)
+- Unique domains contributed: **1,059,495** (81.94%)
+- Overlap with other lists: **233,493** (18.06%)
 
 ### OISD Blocklist Big
 
 - Raw rules: **405,197**
 - Normalized domains: **405,197**
-- Unique domains contributed: **136,883** (33.78%)
-- Overlap with other lists: **268,314** (66.22%)
+- Unique domains contributed: **134,566** (33.21%)
+- Overlap with other lists: **270,631** (66.79%)
 
 ### HaGeZi Pro++
 
 - Raw rules: **242,729**
 - Normalized domains: **242,729**
-- Unique domains contributed: **117,218** (48.29%)
-- Overlap with other lists: **125,511** (51.71%)
+- Unique domains contributed: **72,805** (29.99%)
+- Overlap with other lists: **169,924** (70.01%)
+
+### ShadowWhisperer Tracking List
+
+- Raw rules: **113,205**
+- Normalized domains: **113,205**
+- Unique domains contributed: **64,059** (56.59%)
+- Overlap with other lists: **49,146** (43.41%)
 
 ### Phishing Army
 
 - Raw rules: **145,083**
 - Normalized domains: **145,083**
-- Unique domains contributed: **60,986** (42.04%)
-- Overlap with other lists: **84,097** (57.96%)
+- Unique domains contributed: **60,983** (42.03%)
+- Overlap with other lists: **84,100** (57.97%)
+
+### AdGuard DNS filter
+
+- Raw rules: **164,400**
+- Normalized domains: **163,660**
+- Unique domains contributed: **52,231** (31.91%)
+- Overlap with other lists: **111,429** (68.09%)
 
 ### Malicious URL Blocklist URLHaus
 
@@ -61,60 +75,109 @@ Sorted by unique normalized domains contributed.
 - Unique domains contributed: **14,320** (84.10%)
 - Overlap with other lists: **2,707** (15.90%)
 
+### The Big List of Hacked Malware Web Sites
+
+- Raw rules: **13,468**
+- Normalized domains: **13,467**
+- Unique domains contributed: **13,032** (96.77%)
+- Overlap with other lists: **435** (3.23%)
+
 ### HaGeZi URL Shortener
 
 - Raw rules: **9,882**
 - Normalized domains: **9,882**
-- Unique domains contributed: **8,547** (86.49%)
-- Overlap with other lists: **1,335** (13.51%)
+- Unique domains contributed: **8,516** (86.18%)
+- Overlap with other lists: **1,366** (13.82%)
 
 ### Dandelion Sprout's Anti-Malware List
 
 - Raw rules: **12,780**
 - Normalized domains: **12,376**
-- Unique domains contributed: **1,396** (11.28%)
-- Overlap with other lists: **10,980** (88.72%)
+- Unique domains contributed: **1,376** (11.12%)
+- Overlap with other lists: **11,000** (88.88%)
+
+### HaGeZi DynDNS Blocklist
+
+- Raw rules: **1,476**
+- Normalized domains: **1,476**
+- Unique domains contributed: **1,095** (74.19%)
+- Overlap with other lists: **381** (25.81%)
+
+### HaGeZi Badware Hoster Blocklist
+
+- Raw rules: **1,259**
+- Normalized domains: **1,259**
+- Unique domains contributed: **502** (39.87%)
+- Overlap with other lists: **757** (60.13%)
 
 ### ROad-Block Romanian Adblock
 
 - Raw rules: **1,335**
 - Normalized domains: **451**
-- Unique domains contributed: **369** (81.82%)
-- Overlap with other lists: **82** (18.18%)
+- Unique domains contributed: **363** (80.49%)
+- Overlap with other lists: **88** (19.51%)
+
+### AWAvenue Ads Rule
+
+- Raw rules: **861**
+- Normalized domains: **856**
+- Unique domains contributed: **206** (24.07%)
+- Overlap with other lists: **650** (75.93%)
+
+### NoCoin Filter List
+
+- Raw rules: **313**
+- Normalized domains: **313**
+- Unique domains contributed: **174** (55.59%)
+- Overlap with other lists: **139** (44.41%)
+
+### AdGuard DNS Popup Hosts filter
+
+- Raw rules: **1,183**
+- Normalized domains: **1,183**
+- Unique domains contributed: **42** (3.55%)
+- Overlap with other lists: **1,141** (96.45%)
+
+### HaGeZi DNS Rebind Protection
+
+- Raw rules: **11**
+- Normalized domains: **0**
+- Unique domains contributed: **0** (0.00%)
+- Overlap with other lists: **0** (0.00%)
 
 
 ## Top duplicate normalized domains
 
-- 5x `gateway.lighthouse.storage`
-- 4x `0121.click`
-- 4x `0213233.cfd`
-- 4x `02ip.ru`
-- 4x `03122e72f0.com`
-- 4x `0365alert.com`
-- 4x `09239-174328543.shop`
-- 4x `0chnik-pl.shop`
-- 4x `0fde401291120.click`
-- 4x `0network.com`
-- 4x `0oorku4.top`
-- 4x `1-straussvipeu-online.shop`
-- 4x `100conversions.com`
-- 4x `10230374783013.lat`
-- 4x `10384977980745.shop`
-- 4x `12097623.cfd`
-- 4x `126325g2.sbs`
-- 4x `13.accessbenefitscenter.com`
-- 4x `14edqrd42.top`
-- 4x `174257d5.sbs`
-- 4x `1826346f7.sbs`
-- 4x `182652h2.sbs`
-- 4x `183528x56.sbs`
-- 4x `1974275r5.sbs`
-- 4x `1kea-eur.shop`
-- 4x `1xbet.mobi`
-- 4x `1xsinga.com`
-- 4x `1xslot-ua.com`
-- 4x `2026-lidl.shop`
-- 4x `2026.72.chat`
+- 6x `awecrptjmp.com`
+- 6x `cdntechone.com`
+- 6x `crentgate.com`
+- 6x `gsecurecontent.com`
+- 6x `iyfbodn.com`
+- 6x `making.party`
+- 6x `new-pressroom.com`
+- 6x `pressizer.net`
+- 6x `pubtrky.com`
+- 6x `see-what-is-trending.com`
+- 6x `semygruja.com`
+- 6x `update-macosx.com`
+- 6x `yip.su`
+- 5x `02ip.ru`
+- 5x `123-stream.org`
+- 5x `1asb.com`
+- 5x `2no.co`
+- 5x `367p.com`
+- 5x `4bind2.cfd`
+- 5x `5mp.eu`
+- 5x `5wzgtq8dpk.com`
+- 5x `65spy7rgcu.com`
+- 5x `aboveaverageheavenly.com`
+- 5x `absurdbatchconfess.com`
+- 5x `abyssfar.com`
+- 5x `accuratewistful.com`
+- 5x `acexedge.com`
+- 5x `acrebackcharacter.com`
+- 5x `actuallysheep.com`
+- 5x `adfgetlink.net`
 
 ## Notes
 
