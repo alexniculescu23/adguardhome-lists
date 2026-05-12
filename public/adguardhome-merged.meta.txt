@@ -1,0 +1,7 @@
+compiled_at_utc=2026-05-12T05:55:37Z
+profile=full
+sources_file=sources.json
+merged_source=dist/merged-latest.txt
+bytes=36220236
+lines=1673975
+sha256=ae3fa10afb6e59db8fa44626fc28b2b8fb5862af2c5ad8ecd947747db692497b

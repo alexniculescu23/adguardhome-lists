@@ -1,0 +1,65 @@
+{
+  "name": "Alex AdGuardHome Merged DNS Security List - TIF Full",
+  "description": "Merged local build for AdGuard Home. Includes TIF Full for measurement.",
+  "homepage": "https://local.invalid/adguardhome",
+  "license": "mixed",
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "oisd_big",
+      "name": "OISD Blocklist Big",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "dandelion_antimalware",
+      "name": "Dandelion Sprout's Anti-Malware List",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "hagezi_pro_pp",
+      "name": "HaGeZi Pro++",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_51.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "hagezi_url_shortener",
+      "name": "HaGeZi URL Shortener",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "hagezi_tif_full",
+      "name": "HaGeZi Threat Intelligence Feeds - Full",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "phishing_army_extended",
+      "name": "Phishing Army Extended",
+      "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "urlhaus",
+      "name": "Malicious URL Blocklist URLHaus",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt",
+      "type": "adblock",
+      "enabled": true
+    },
+    {
+      "id": "road_block_ro",
+      "name": "ROad-Block Romanian Adblock",
+      "url": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt",
+      "type": "adblock",
+      "enabled": true
+    }
+  ]
+}
