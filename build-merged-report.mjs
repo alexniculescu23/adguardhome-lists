@@ -350,11 +350,19 @@ md += `- Sum of normalized domains per source: **${fmt(globalRawDomains)}**\n`;
 md += `- Global unique normalized domains: **${fmt(globalUniqueDomains)}**\n`;
 md += `- Duplicate normalized-domain entries across sources: **${fmt(duplicateDomainEntries)}** (${report.inputSummary.duplicateDomainPctAcrossSources}%)\n\n`;
 
-md += `## Per-source contribution\n\n`;
-md += `| Source | Raw rules | Text unique in source | Text unique only | Domains | Domain unique only | Domain unique % |\n`;
-md += `|---|---:|---:|---:|---:|---:|---:|\n`;
-for (const s of report.sources) {
-  md += `| ${s.name} | ${fmt(s.rawNonCommentRules)} | ${fmt(s.uniqueTextualRules)} | ${fmt(s.uniqueTextOnly)} | ${fmt(s.normalizedDomains)} | ${fmt(s.uniqueDomainsOnly)} | ${s.uniqueDomainPct}% |\n`;
+md += `## List usefulness\n\n`;
+md += `Sorted by unique normalized domains contributed.\n\n`;
+
+const readableSources = [...report.sources].sort((a, b) => b.uniqueDomainsOnly - a.uniqueDomainsOnly);
+
+for (const s of readableSources) {
+  const overlapPct = pct(s.overlappingDomains, s.normalizedDomains);
+
+  md += `### ${s.name}\n\n`;
+  md += `- Raw rules: **${fmt(s.rawNonCommentRules)}**\n`;
+  md += `- Normalized domains: **${fmt(s.normalizedDomains)}**\n`;
+  md += `- Unique domains contributed: **${fmt(s.uniqueDomainsOnly)}** (${s.uniqueDomainPct}%)\n`;
+  md += `- Overlap with other lists: **${fmt(s.overlappingDomains)}** (${overlapPct}%)\n\n`;
 }
 
 md += `\n## Top duplicate normalized domains\n\n`;
@@ -365,7 +373,7 @@ for (const item of report.topDuplicateDomains.slice(0, 30)) {
 md += `\n## Notes\n\n`;
 md += `- Domain overlap is approximate normalization. HostlistCompiler may optimize further through Compress and validation.\n`;
 md += `- The final output count is the important number for what AdGuardHome will ingest as a single list.\n`;
-md += `- TIF Full is included here for measurement. Do not push the final list to the router until we inspect the output size and counts.\n`;
+md += `- This build includes HaGeZi TIF Full. Test router RAM carefully before disabling the separate lists.\n`;
 
 fs.writeFileSync(reportMd, md);
 fs.copyFileSync(reportMd, latestReportMd);

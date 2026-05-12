@@ -1,11 +1,11 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-05-12T06:31:27.774Z`
+Compiled at: `2026-05-12T06:35:02.097Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-05-12T06-31-27-774Z.txt`
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-05-12T06-35-02-097Z.txt`
 - Output bytes: **36,219,933**
 - Output non-comment rules: **1,673,951**
 - Output unique textual rules: **1,673,951**
@@ -22,18 +22,66 @@ Compiled at: `2026-05-12T06:31:27.774Z`
 - Global unique normalized domains: **1,721,513**
 - Duplicate normalized-domain entries across sources: **404,220** (19.02%)
 
-## Per-source contribution
+## List usefulness
 
-| Source | Raw rules | Text unique in source | Text unique only | Domains | Domain unique only | Domain unique % |
-|---|---:|---:|---:|---:|---:|---:|
-| OISD Blocklist Big | 405,197 | 405,197 | 166,385 | 405,197 | 136,883 | 33.78% |
-| Dandelion Sprout's Anti-Malware List | 12,780 | 12,780 | 1,811 | 12,376 | 1,396 | 11.28% |
-| HaGeZi Pro++ | 242,729 | 242,729 | 117,245 | 242,729 | 117,218 | 48.29% |
-| HaGeZi URL Shortener | 9,882 | 9,882 | 8,565 | 9,882 | 8,547 | 86.49% |
-| HaGeZi Threat Intelligence Feeds - Full | 1,292,988 | 1,292,988 | 1,068,375 | 1,292,988 | 1,060,823 | 82.04% |
-| Phishing Army | 145,083 | 145,083 | 145,083 | 145,083 | 60,986 | 42.04% |
-| Malicious URL Blocklist URLHaus | 17,027 | 17,027 | 14,320 | 17,027 | 14,320 | 84.10% |
-| ROad-Block Romanian Adblock | 1,335 | 1,334 | 1,279 | 451 | 369 | 81.82% |
+Sorted by unique normalized domains contributed.
+
+### HaGeZi Threat Intelligence Feeds - Full
+
+- Raw rules: **1,292,988**
+- Normalized domains: **1,292,988**
+- Unique domains contributed: **1,060,823** (82.04%)
+- Overlap with other lists: **232,165** (17.96%)
+
+### OISD Blocklist Big
+
+- Raw rules: **405,197**
+- Normalized domains: **405,197**
+- Unique domains contributed: **136,883** (33.78%)
+- Overlap with other lists: **268,314** (66.22%)
+
+### HaGeZi Pro++
+
+- Raw rules: **242,729**
+- Normalized domains: **242,729**
+- Unique domains contributed: **117,218** (48.29%)
+- Overlap with other lists: **125,511** (51.71%)
+
+### Phishing Army
+
+- Raw rules: **145,083**
+- Normalized domains: **145,083**
+- Unique domains contributed: **60,986** (42.04%)
+- Overlap with other lists: **84,097** (57.96%)
+
+### Malicious URL Blocklist URLHaus
+
+- Raw rules: **17,027**
+- Normalized domains: **17,027**
+- Unique domains contributed: **14,320** (84.10%)
+- Overlap with other lists: **2,707** (15.90%)
+
+### HaGeZi URL Shortener
+
+- Raw rules: **9,882**
+- Normalized domains: **9,882**
+- Unique domains contributed: **8,547** (86.49%)
+- Overlap with other lists: **1,335** (13.51%)
+
+### Dandelion Sprout's Anti-Malware List
+
+- Raw rules: **12,780**
+- Normalized domains: **12,376**
+- Unique domains contributed: **1,396** (11.28%)
+- Overlap with other lists: **10,980** (88.72%)
+
+### ROad-Block Romanian Adblock
+
+- Raw rules: **1,335**
+- Normalized domains: **451**
+- Unique domains contributed: **369** (81.82%)
+- Overlap with other lists: **82** (18.18%)
+
 
 ## Top duplicate normalized domains
 
@@ -72,4 +120,4 @@ Compiled at: `2026-05-12T06:31:27.774Z`
 
 - Domain overlap is approximate normalization. HostlistCompiler may optimize further through Compress and validation.
 - The final output count is the important number for what AdGuardHome will ingest as a single list.
-- TIF Full is included here for measurement. Do not push the final list to the router until we inspect the output size and counts.
+- This build includes HaGeZi TIF Full. Test router RAM carefully before disabling the separate lists.
