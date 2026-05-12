@@ -58,6 +58,12 @@ echo
 echo "=== Public metadata ==="
 cat "$PUBLIC_META"
 
+if [ -f "$PUBLIC_REPORT" ]; then
+  echo
+  echo "=== Latest list usefulness report ==="
+  sed -n '1,80p' "$PUBLIC_REPORT"
+fi
+
 echo
 echo "=== Git remote ==="
 if ! git remote get-url origin >/dev/null 2>&1; then
