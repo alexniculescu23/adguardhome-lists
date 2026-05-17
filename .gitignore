@@ -1,7 +1,4 @@
 downloads/
-reports/report-*.md
-reports/report-*.json
-reports/latest.json
-dist/merged-*.txt
-dist/hostlistcompiler-*.json
+dist/
+reports/
 node_modules/

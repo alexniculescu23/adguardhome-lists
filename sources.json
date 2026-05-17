@@ -1,7 +1,7 @@
 {
-  "name": "Alex AdGuardHome Merged DNS Security List - TIF Full",
-  "description": "Merged local build for AdGuard Home. Includes TIF Full for measurement.",
-  "homepage": "https://local.invalid/adguardhome",
+  "name": "Alex AdGuardHome Merged DNS Security List",
+  "description": "Merged local build for AdGuard Home. Full aggressive profile with ads, tracking, malware, phishing and threat intelligence lists.",
+  "homepage": "https://github.com/alexniculescu23/adguardhome-lists",
   "license": "mixed",
   "version": "1.0.0",
   "sources": [
@@ -10,57 +10,64 @@
       "name": "OISD Blocklist Big",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_27.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "General-purpose DNS blocklist."
     },
     {
       "id": "dandelion_antimalware",
       "name": "Dandelion Sprout's Anti-Malware List",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_12.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Anti-malware list. Kept enabled for overlap testing and user decision."
     },
     {
       "id": "hagezi_pro_pp",
       "name": "HaGeZi Pro++",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_51.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Aggressive ads, tracking, telemetry, malware and phishing protection."
     },
     {
       "id": "hagezi_url_shortener",
       "name": "HaGeZi URL Shortener",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_68.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Blocks URL shortener domains often abused for phishing/scam campaigns."
     },
     {
       "id": "hagezi_tif_full",
       "name": "HaGeZi Threat Intelligence Feeds - Full",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Full threat intelligence feed. Large and aggressive."
     },
     {
-      "id": "phishing_army_extended",
+      "id": "phishing_army",
       "name": "Phishing Army",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_18.txt",
       "type": "adblock",
       "enabled": true,
-      "note": "AdGuard HostlistsRegistry re-hosted/optimized URL; upstream is phishing.army extended list."
+      "note": "Phishing protection."
     },
     {
       "id": "urlhaus",
       "name": "Malicious URL Blocklist URLHaus",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_11.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Malware URL protection."
     },
     {
       "id": "road_block_ro",
       "name": "ROad-Block Romanian Adblock",
       "url": "https://raw.githubusercontent.com/tcptomato/ROad-Block/master/road-block-filters.txt",
       "type": "adblock",
-      "enabled": true
+      "enabled": true,
+      "note": "Romanian adblock list. Kept direct upstream because it is not in AdGuard HostlistsRegistry."
     },
     {
       "id": "adguard_dns_filter",
@@ -76,7 +83,7 @@
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_59.txt",
       "type": "adblock",
       "enabled": true,
-      "note": "DNS-level popup host blocking."
+      "note": "DNS-level popup host blocking. Kept enabled for overlap testing and user decision."
     },
     {
       "id": "awavenue_ads_rule",
@@ -135,28 +142,20 @@
       "note": "DNS rebinding protection."
     },
     {
-      "id": "hagezi_abused_tlds",
-      "name": "HaGeZi Most Abused TLDs",
-      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_56.txt",
+      "id": "steven_black_hosts",
+      "name": "Steven Black hosts",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_33.txt",
       "type": "adblock",
-      "enabled": false,
-      "note": "Aggressive/problematic-risk. Enable only if you accept possible breakage."
-    },
-    {
-      "id": "hagezi_doh_vpn_proxy_bypass",
-      "name": "HaGeZi DoH/VPN/Proxy Bypass",
-      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_52.txt",
-      "type": "adblock",
-      "enabled": false,
-      "note": "Policy list. Blocks bypass methods; may break VPN/DoH/proxy workflows."
+      "enabled": true,
+      "note": "Classic hosts list for adware and malware; added for overlap testing."
     },
     {
       "id": "onehosts_xtra",
       "name": "1Hosts Xtra",
       "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_70.txt",
       "type": "adblock",
-      "enabled": false,
-      "note": "Very aggressive. Registry marks it as potentially disruptive."
+      "enabled": true,
+      "note": "Aggressive privacy/security list; may cause false positives. Added for overlap testing."
     }
   ]
 }
