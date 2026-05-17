@@ -150,12 +150,12 @@
       "note": "Classic hosts list for adware and malware; added for overlap testing."
     },
     {
-      "id": "onehosts_pro",
-      "name": "1Hosts Pro",
-      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_64.txt",
+      "id": "onehosts_lite",
+      "name": "1Hosts Lite",
+      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_24.txt",
       "type": "adblock",
       "enabled": true,
-      "note": "Strict 1Hosts variant from AdGuard HostlistsRegistry. Less aggressive than Xtra, stronger than Lite. Added for overlap and false-positive testing."
+      "note": "Balanced 1Hosts variant from AdGuard HostlistsRegistry. Lower false-positive risk than Xtra."
     }
   ]
 }
