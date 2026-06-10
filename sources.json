@@ -158,14 +158,6 @@
       "note": "Balanced 1Hosts variant from AdGuard HostlistsRegistry. Lower false-positive risk than Xtra."
     },
     {
-      "id": "goodbyeads_full",
-      "name": "GoodbyeAds Full",
-      "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Formats/GoodbyeAds-AdBlock-Filter.txt",
-      "type": "adblock",
-      "enabled": true,
-      "note": "Primary GoodbyeAds adblock-format list. Added direct upstream for overlap and usefulness testing."
-    },
-    {
       "id": "goodbyeads_spotify",
       "name": "GoodbyeAds Spotify AdBlock",
       "url": "https://raw.githubusercontent.com/jerryn70/GoodbyeAds/master/Extension/GoodbyeAds-Spotify-AdBlock.txt",
