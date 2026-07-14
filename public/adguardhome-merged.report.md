@@ -1,26 +1,26 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-07-13T03:56:17.248Z`
+Compiled at: `2026-07-14T05:44:54.468Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-07-13T03-56-17-248Z.txt`
-- Output bytes: **48,525,863**
-- Output non-comment rules: **2,287,075**
-- Output unique textual rules: **2,287,075**
-- Output normalized domains: **2,284,799**
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-07-14T05-44-54-468Z.txt`
+- Output bytes: **48,505,549**
+- Output non-comment rules: **2,284,888**
+- Output unique textual rules: **2,284,888**
+- Output normalized domains: **2,282,612**
 
 ## Input summary before HostlistCompiler
 
 - Sources: **20**
-- Raw non-comment rules: **3,093,898**
-- Sum of unique textual rules per source: **3,093,897**
-- Global unique textual rules: **2,542,782**
-- Duplicate textual entries across sources: **551,115** (17.81%)
-- Sum of normalized domains per source: **3,091,827**
-- Global unique normalized domains: **2,421,397**
-- Duplicate normalized-domain entries across sources: **670,430** (21.68%)
+- Raw non-comment rules: **3,272,364**
+- Sum of unique textual rules per source: **3,272,363**
+- Global unique textual rules: **2,551,032**
+- Duplicate textual entries across sources: **721,331** (22.04%)
+- Sum of normalized domains per source: **3,270,293**
+- Global unique normalized domains: **2,429,924**
+- Duplicate normalized-domain entries across sources: **840,369** (25.70%)
 
 ## List usefulness
 
@@ -28,80 +28,80 @@ Sorted by unique normalized domains contributed.
 
 ### HaGeZi Threat Intelligence Feeds - Full
 
-- Raw rules: **1,861,985**
-- Normalized domains: **1,861,985**
-- Unique domains contributed: **1,605,529** (86.23%)
-- Overlap with other lists: **256,456** (13.77%)
+- Raw rules: **1,859,022**
+- Normalized domains: **1,859,022**
+- Unique domains contributed: **1,439,202** (77.42%)
+- Overlap with other lists: **419,820** (22.58%)
 
 ### OISD Blocklist Big
 
-- Raw rules: **328,712**
-- Normalized domains: **328,712**
-- Unique domains contributed: **78,444** (23.86%)
-- Overlap with other lists: **250,268** (76.14%)
+- Raw rules: **508,482**
+- Normalized domains: **508,482**
+- Unique domains contributed: **89,066** (17.52%)
+- Overlap with other lists: **419,416** (82.48%)
 
 ### ShadowWhisperer Tracking List
 
 - Raw rules: **114,029**
 - Normalized domains: **114,029**
-- Unique domains contributed: **65,888** (57.78%)
-- Overlap with other lists: **48,141** (42.22%)
+- Unique domains contributed: **65,881** (57.78%)
+- Overlap with other lists: **48,148** (42.22%)
 
 ### HaGeZi Pro++
 
-- Raw rules: **250,653**
-- Normalized domains: **250,653**
-- Unique domains contributed: **57,779** (23.05%)
-- Overlap with other lists: **192,874** (76.95%)
+- Raw rules: **251,896**
+- Normalized domains: **251,896**
+- Unique domains contributed: **58,002** (23.03%)
+- Overlap with other lists: **193,894** (76.97%)
 
 ### Phishing Army
 
-- Raw rules: **145,212**
-- Normalized domains: **145,212**
-- Unique domains contributed: **57,133** (39.34%)
-- Overlap with other lists: **88,079** (60.66%)
+- Raw rules: **145,388**
+- Normalized domains: **145,388**
+- Unique domains contributed: **57,498** (39.55%)
+- Overlap with other lists: **87,890** (60.45%)
 
 ### AdGuard DNS filter
 
-- Raw rules: **156,808**
-- Normalized domains: **156,052**
-- Unique domains contributed: **46,961** (30.09%)
-- Overlap with other lists: **109,091** (69.91%)
+- Raw rules: **157,156**
+- Normalized domains: **156,400**
+- Unique domains contributed: **47,137** (30.14%)
+- Overlap with other lists: **109,263** (69.86%)
 
 ### Steven Black hosts
 
 - Raw rules: **78,450**
 - Normalized domains: **78,450**
-- Unique domains contributed: **43,526** (55.48%)
-- Overlap with other lists: **34,924** (44.52%)
+- Unique domains contributed: **43,541** (55.50%)
+- Overlap with other lists: **34,909** (44.50%)
 
 ### 1Hosts Lite
 
-- Raw rules: **99,761**
-- Normalized domains: **99,761**
-- Unique domains contributed: **19,088** (19.13%)
-- Overlap with other lists: **80,673** (80.87%)
+- Raw rules: **99,903**
+- Normalized domains: **99,903**
+- Unique domains contributed: **19,102** (19.12%)
+- Overlap with other lists: **80,801** (80.88%)
 
 ### The Big List of Hacked Malware Web Sites
 
 - Raw rules: **13,468**
 - Normalized domains: **13,467**
-- Unique domains contributed: **12,926** (95.98%)
-- Overlap with other lists: **541** (4.02%)
+- Unique domains contributed: **12,927** (95.99%)
+- Overlap with other lists: **540** (4.01%)
 
 ### Malicious URL Blocklist URLHaus
 
-- Raw rules: **12,248**
-- Normalized domains: **12,248**
-- Unique domains contributed: **10,566** (86.27%)
-- Overlap with other lists: **1,682** (13.73%)
+- Raw rules: **11,998**
+- Normalized domains: **11,998**
+- Unique domains contributed: **10,353** (86.29%)
+- Overlap with other lists: **1,645** (13.71%)
 
 ### HaGeZi URL Shortener
 
 - Raw rules: **9,905**
 - Normalized domains: **9,905**
-- Unique domains contributed: **9,598** (96.90%)
-- Overlap with other lists: **307** (3.10%)
+- Unique domains contributed: **9,606** (96.98%)
+- Overlap with other lists: **299** (3.02%)
 
 ### GoodbyeAds Spotify AdBlock
 
@@ -114,8 +114,8 @@ Sorted by unique normalized domains contributed.
 
 - Raw rules: **12,540**
 - Normalized domains: **12,132**
-- Unique domains contributed: **1,990** (16.40%)
-- Overlap with other lists: **10,142** (83.60%)
+- Unique domains contributed: **1,992** (16.42%)
+- Overlap with other lists: **10,140** (83.58%)
 
 ### HaGeZi DynDNS Blocklist
 
@@ -178,6 +178,7 @@ Sorted by unique normalized domains contributed.
 - 7x `analytics.query.yahoo.com`
 - 7x `analytics.s3.amazonaws.com`
 - 7x `analytics.tiktok.com`
+- 7x `authorization-code.info`
 - 7x `beacon.qq.com`
 - 7x `betr-for-tod.com`
 - 7x `bounceexchange.com`
@@ -198,7 +199,6 @@ Sorted by unique normalized domains contributed.
 - 7x `hexagon-analytics.com`
 - 7x `hfc195b.com`
 - 7x `hm.baidu.com`
-- 7x `idverification-code.beer`
 
 ## Notes
 
