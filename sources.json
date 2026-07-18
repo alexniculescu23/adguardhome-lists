@@ -38,12 +38,12 @@
       "note": "Blocks URL shortener domains often abused for phishing/scam campaigns."
     },
     {
-      "id": "hagezi_tif_full",
-      "name": "HaGeZi Threat Intelligence Feeds - Full",
-      "url": "https://adguardteam.github.io/HostlistsRegistry/assets/filter_44.txt",
+      "id": "hagezi_tif_medium",
+      "name": "HaGeZi Threat Intelligence Feeds - Medium",
+      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt",
       "type": "adblock",
       "enabled": true,
-      "note": "Full threat intelligence feed. Large and aggressive."
+      "note": "Medium threat intelligence feed. Important feeds selected for smaller devices."
     },
     {
       "id": "phishing_army",

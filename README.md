@@ -67,4 +67,4 @@ GitHub push requires a Personal Access Token or GitHub CLI authentication.
 
 ## Important
 
-This build currently includes HaGeZi TIF Full. The generated list is large, so monitor AdGuardHome RAM usage on the router after adding it.
+This build currently includes HaGeZi TIF Medium, the smaller HaGeZi threat-intelligence tier intended for resource-constrained AdGuard Home deployments.
