@@ -373,7 +373,7 @@ for (const item of report.topDuplicateDomains.slice(0, 30)) {
 md += `\n## Notes\n\n`;
 md += `- Domain overlap is approximate normalization. HostlistCompiler may optimize further through Compress and validation.\n`;
 md += `- The final output count is the important number for what AdGuardHome will ingest as a single list.\n`;
-md += `- This build includes HaGeZi TIF Full. Test router RAM carefully before disabling the separate lists.\n`;
+md += `- This build includes HaGeZi TIF Medium. Test router RAM carefully before disabling the separate lists.\n`;
 
 fs.writeFileSync(reportMd, md);
 fs.copyFileSync(reportMd, latestReportMd);

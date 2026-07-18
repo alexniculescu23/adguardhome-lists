@@ -1,6 +1,6 @@
 {
   "name": "Alex AdGuardHome Merged DNS Security List",
-  "description": "Merged local build for AdGuard Home. Full aggressive profile with ads, tracking, malware, phishing and threat intelligence lists.",
+  "description": "Merged local build for AdGuard Home. Aggressive profile with ads, tracking, malware, phishing and threat intelligence lists.",
   "homepage": "https://github.com/alexniculescu23/adguardhome-lists",
   "license": "mixed",
   "version": "1.0.0",

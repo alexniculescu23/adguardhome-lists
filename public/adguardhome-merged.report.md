@@ -1,12 +1,12 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-07-18T05:15:44.136Z`
+Compiled at: `2026-07-18T05:19:48.119Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-07-18T05-15-44-136Z.txt`
-- Output bytes: **24,010,888**
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-07-18T05-19-48-119Z.txt`
+- Output bytes: **24,010,883**
 - Output non-comment rules: **1,092,597**
 - Output unique textual rules: **1,092,597**
 - Output normalized domains: **1,090,318**
@@ -204,4 +204,4 @@ Sorted by unique normalized domains contributed.
 
 - Domain overlap is approximate normalization. HostlistCompiler may optimize further through Compress and validation.
 - The final output count is the important number for what AdGuardHome will ingest as a single list.
-- This build includes HaGeZi TIF Full. Test router RAM carefully before disabling the separate lists.
+- This build includes HaGeZi TIF Medium. Test router RAM carefully before disabling the separate lists.

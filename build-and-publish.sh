@@ -67,7 +67,7 @@ cp "$REPORT_FILE" "$PUBLIC_REPORT"
 
 {
   echo "compiled_at_utc=$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-  echo "profile=full"
+  echo "profile=medium"
   echo "sources_file=$SOURCES_FILE"
   echo "merged_source=$MERGED_FILE"
   echo "bytes=$(wc -c < "$PUBLIC_LIST")"
