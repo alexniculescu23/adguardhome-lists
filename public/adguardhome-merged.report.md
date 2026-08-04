@@ -1,26 +1,26 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-08-04T04:06:17.110Z`
+Compiled at: `2026-08-04T07:40:23.761Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-08-04T04-06-17-110Z.txt`
-- Output bytes: **22,890,197**
-- Output non-comment rules: **1,001,674**
-- Output unique textual rules: **1,001,674**
-- Output normalized domains: **999,384**
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-08-04T07-40-23-761Z.txt`
+- Output bytes: **22,893,541**
+- Output non-comment rules: **1,001,796**
+- Output unique textual rules: **1,001,796**
+- Output normalized domains: **999,506**
 
 ## Input summary before HostlistCompiler
 
 - Sources: **20**
-- Raw non-comment rules: **1,751,629**
-- Sum of unique textual rules per source: **1,751,628**
-- Global unique textual rules: **1,286,406**
-- Duplicate textual entries across sources: **465,222** (26.56%)
-- Sum of normalized domains per source: **1,749,551**
-- Global unique normalized domains: **1,144,035**
-- Duplicate normalized-domain entries across sources: **605,516** (34.61%)
+- Raw non-comment rules: **1,751,699**
+- Sum of unique textual rules per source: **1,751,698**
+- Global unique textual rules: **1,286,474**
+- Duplicate textual entries across sources: **465,224** (26.56%)
+- Sum of normalized domains per source: **1,749,621**
+- Global unique normalized domains: **1,144,164**
+- Duplicate normalized-domain entries across sources: **605,457** (34.61%)
 
 ## List usefulness
 
@@ -28,38 +28,38 @@ Sorted by unique normalized domains contributed.
 
 ### OISD Blocklist Big
 
-- Raw rules: **433,120**
-- Normalized domains: **433,120**
-- Unique domains contributed: **234,177** (54.07%)
-- Overlap with other lists: **198,943** (45.93%)
+- Raw rules: **433,144**
+- Normalized domains: **433,144**
+- Unique domains contributed: **234,149** (54.06%)
+- Overlap with other lists: **198,995** (45.94%)
 
 ### HaGeZi Threat Intelligence Feeds - Medium
 
 - Raw rules: **387,517**
 - Normalized domains: **387,517**
-- Unique domains contributed: **224,917** (58.04%)
-- Overlap with other lists: **162,600** (41.96%)
+- Unique domains contributed: **224,929** (58.04%)
+- Overlap with other lists: **162,588** (41.96%)
 
 ### HaGeZi Pro++
 
 - Raw rules: **241,126**
 - Normalized domains: **241,126**
-- Unique domains contributed: **69,085** (28.65%)
-- Overlap with other lists: **172,041** (71.35%)
+- Unique domains contributed: **69,083** (28.65%)
+- Overlap with other lists: **172,043** (71.35%)
 
 ### ShadowWhisperer Tracking List
 
-- Raw rules: **114,392**
-- Normalized domains: **114,392**
-- Unique domains contributed: **65,966** (57.67%)
-- Overlap with other lists: **48,426** (42.33%)
+- Raw rules: **114,400**
+- Normalized domains: **114,400**
+- Unique domains contributed: **65,972** (57.67%)
+- Overlap with other lists: **48,428** (42.33%)
 
 ### Phishing Army
 
-- Raw rules: **155,776**
-- Normalized domains: **155,776**
-- Unique domains contributed: **58,761** (37.72%)
-- Overlap with other lists: **97,015** (62.28%)
+- Raw rules: **155,777**
+- Normalized domains: **155,777**
+- Unique domains contributed: **58,823** (37.76%)
+- Overlap with other lists: **96,954** (62.24%)
 
 ### Steven Black hosts
 
@@ -70,10 +70,10 @@ Sorted by unique normalized domains contributed.
 
 ### AdGuard DNS filter
 
-- Raw rules: **162,636**
-- Normalized domains: **161,873**
-- Unique domains contributed: **48,961** (30.25%)
-- Overlap with other lists: **112,912** (69.75%)
+- Raw rules: **162,673**
+- Normalized domains: **161,910**
+- Unique domains contributed: **48,998** (30.26%)
+- Overlap with other lists: **112,912** (69.74%)
 
 ### 1Hosts Lite
 
@@ -93,8 +93,8 @@ Sorted by unique normalized domains contributed.
 
 - Raw rules: **9,977**
 - Normalized domains: **9,977**
-- Unique domains contributed: **9,670** (96.92%)
-- Overlap with other lists: **307** (3.08%)
+- Unique domains contributed: **9,668** (96.90%)
+- Overlap with other lists: **309** (3.10%)
 
 ### Malicious URL Blocklist URLHaus
 
