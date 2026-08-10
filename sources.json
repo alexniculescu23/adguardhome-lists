@@ -39,8 +39,8 @@
     },
     {
       "id": "hagezi_tif_medium",
-      "name": "HaGeZi Threat Intelligence Feeds - Medium",
-      "url": "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.medium.txt",
+      "name": "HaGeZi Threat Intelligence Feeds",
+      "url": "https://gitlab.com/hagezi/mirror/-/raw/main/dns-blocklists/adblock/tif.medium.txt",
       "type": "adblock",
       "enabled": true,
       "note": "Medium threat intelligence feed. Important feeds selected for smaller devices."
