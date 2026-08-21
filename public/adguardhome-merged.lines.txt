@@ -1,1 +1,1 @@
-921208 public/adguardhome-merged.txt
+921295 public/adguardhome-merged.txt
