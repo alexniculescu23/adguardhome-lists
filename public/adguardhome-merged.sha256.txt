@@ -1,1 +1,1 @@
-637ea49728b22f62049902a29ad7d08ee7afb4818308821793ef6f6a390c473a  public/adguardhome-merged.txt
+2d71a41aa79cf2eacc9df8356a10da0ccadc675f07bfd2397fd2d3a9cbe6d79c  public/adguardhome-merged.txt
