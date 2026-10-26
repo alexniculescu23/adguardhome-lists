@@ -1,11 +1,11 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-10-26T06:10:20.944Z`
+Compiled at: `2026-10-26T06:30:43.355Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/adguardhome/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-10-26T06-10-20-944Z.txt`
+- Stamped merged file: `/home/aniculescu/adguardhome/dist/merged-2026-10-26T06-30-43-355Z.txt`
 - Output bytes: **20,609,097**
 - Output non-comment rules: **900,439**
 - Output unique textual rules: **900,439**
