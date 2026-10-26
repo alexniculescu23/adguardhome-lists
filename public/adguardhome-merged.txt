@@ -1,11 +1,11 @@
 !
 ! Title: Alex AdGuardHome Merged DNS Security List
 ! Description: Merged local build for AdGuard Home. Aggressive profile with ads, tracking, malware, phishing and threat intelligence lists.
-Generated: 2026-10-26T06:30:43.355Z
-! Version: 1.0.0-2026-10-26T06-30-43-355Z
+Generated: 2026-10-26T06:32:19.881Z
+! Version: 1.0.0-2026-10-26T06-32-19-881Z
 ! Homepage: https://github.com/alexniculescu23/adguardhome-lists
 ! License: mixed
-! Last modified: 2026-10-26T06:31:38.288Z
+! Last modified: 2026-10-26T06:33:01.638Z
 !
 ! Compiled by @adguard/hostlist-compiler v2.1.0
 !
