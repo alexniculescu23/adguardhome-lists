@@ -1,26 +1,26 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-11-03T06:55:56.838Z`
+Compiled at: `2026-11-04T06:43:07.940Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-2026-11-03T06-55-56-838Z.txt`
-- Output bytes: **17,582,547**
-- Output non-comment rules: **771,650**
-- Output unique textual rules: **771,650**
-- Output normalized domains: **769,353**
+- Stamped merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-2026-11-04T06-43-07-940Z.txt`
+- Output bytes: **17,770,696**
+- Output non-comment rules: **779,493**
+- Output unique textual rules: **779,493**
+- Output normalized domains: **777,196**
 
 ## Input summary before HostlistCompiler
 
 - Sources: **20**
-- Raw non-comment rules: **1,486,594**
-- Sum of unique textual rules per source: **1,486,593**
-- Global unique textual rules: **988,931**
-- Duplicate textual entries across sources: **497,662** (33.48%)
-- Sum of normalized domains per source: **1,484,471**
-- Global unique normalized domains: **865,530**
-- Duplicate normalized-domain entries across sources: **618,941** (41.69%)
+- Raw non-comment rules: **1,499,473**
+- Sum of unique textual rules per source: **1,499,472**
+- Global unique textual rules: **996,670**
+- Duplicate textual entries across sources: **502,802** (33.53%)
+- Sum of normalized domains per source: **1,497,350**
+- Global unique normalized domains: **873,478**
+- Duplicate normalized-domain entries across sources: **623,872** (41.67%)
 
 ## List usefulness
 
@@ -28,73 +28,73 @@ Sorted by unique normalized domains contributed.
 
 ### HaGeZi Threat Intelligence Feeds
 
-- Raw rules: **311,171**
-- Normalized domains: **311,171**
-- Unique domains contributed: **137,388** (44.15%)
-- Overlap with other lists: **173,783** (55.85%)
+- Raw rules: **318,578**
+- Normalized domains: **318,578**
+- Unique domains contributed: **144,616** (45.39%)
+- Overlap with other lists: **173,962** (54.61%)
 
 ### AdGuard DNS filter
 
-- Raw rules: **188,185**
-- Normalized domains: **187,417**
-- Unique domains contributed: **67,768** (36.16%)
-- Overlap with other lists: **119,649** (63.84%)
-
-### HaGeZi Pro++
-
-- Raw rules: **257,460**
-- Normalized domains: **257,460**
-- Unique domains contributed: **64,374** (25.00%)
-- Overlap with other lists: **193,086** (75.00%)
+- Raw rules: **188,388**
+- Normalized domains: **187,620**
+- Unique domains contributed: **66,107** (35.23%)
+- Overlap with other lists: **121,513** (64.77%)
 
 ### ShadowWhisperer Tracking List
 
-- Raw rules: **118,170**
-- Normalized domains: **118,170**
-- Unique domains contributed: **63,551** (53.78%)
-- Overlap with other lists: **54,619** (46.22%)
+- Raw rules: **119,691**
+- Normalized domains: **119,691**
+- Unique domains contributed: **64,098** (53.55%)
+- Overlap with other lists: **55,593** (46.45%)
+
+### HaGeZi Pro++
+
+- Raw rules: **261,409**
+- Normalized domains: **261,409**
+- Unique domains contributed: **63,922** (24.45%)
+- Overlap with other lists: **197,487** (75.55%)
 
 ### Phishing Army
 
-- Raw rules: **151,628**
-- Normalized domains: **151,628**
-- Unique domains contributed: **61,464** (40.54%)
-- Overlap with other lists: **90,164** (59.46%)
+- Raw rules: **151,405**
+- Normalized domains: **151,405**
+- Unique domains contributed: **61,316** (40.50%)
+- Overlap with other lists: **90,089** (59.50%)
 
 ### Steven Black hosts
 
 - Raw rules: **77,758**
 - Normalized domains: **77,758**
-- Unique domains contributed: **43,777** (56.30%)
-- Overlap with other lists: **33,981** (43.70%)
+- Unique domains contributed: **43,774** (56.30%)
+- Overlap with other lists: **33,984** (43.70%)
 
 ### 1Hosts Lite
 
 - Raw rules: **102,241**
 - Normalized domains: **102,241**
-- Unique domains contributed: **37,723** (36.90%)
-- Overlap with other lists: **64,518** (63.10%)
+- Unique domains contributed: **37,588** (36.76%)
+- Overlap with other lists: **64,653** (63.24%)
 
 ### The Big List of Hacked Malware Web Sites
 
 - Raw rules: **13,468**
 - Normalized domains: **13,467**
-- Unique domains contributed: **13,166** (97.76%)
-- Overlap with other lists: **301** (2.24%)
+- Unique domains contributed: **13,164** (97.75%)
+- Overlap with other lists: **303** (2.25%)
 
 ### HaGeZi URL Shortener
 
-- Raw rules: **9,853**
-- Normalized domains: **9,853**
-- Unique domains contributed: **9,582** (97.25%)
-- Overlap with other lists: **271** (2.75%)
+- Raw rules: **9,844**
+- Normalized domains: **9,844**
+- Unique domains contributed: **9,575** (97.27%)
+- Overlap with other lists: **269** (2.73%)
 
 ### OISD Blocklist Big
 
-- Raw rules: **232,137**
-- Normalized domains: **232,137**
-- Unique domains contributed: **4,648** (2.00%)
-- Overlap with other lists: **227,489** (98.00%)
+- Raw rules: **232,165**
+- Normalized domains: **232,165**
+- Unique domains contributed: **4,621** (1.99%)
+- Overlap with other lists: **227,544** (98.01%)
 
 ### GoodbyeAds Spotify AdBlock
 
@@ -107,22 +107,22 @@ Sorted by unique normalized domains contributed.
 
 - Raw rules: **12,587**
 - Normalized domains: **12,178**
-- Unique domains contributed: **3,409** (27.99%)
-- Overlap with other lists: **8,769** (72.01%)
+- Unique domains contributed: **3,461** (28.42%)
+- Overlap with other lists: **8,717** (71.58%)
 
 ### HaGeZi DynDNS Blocklist
 
-- Raw rules: **1,534**
-- Normalized domains: **1,534**
-- Unique domains contributed: **1,239** (80.77%)
-- Overlap with other lists: **295** (19.23%)
+- Raw rules: **1,533**
+- Normalized domains: **1,533**
+- Unique domains contributed: **1,238** (80.76%)
+- Overlap with other lists: **295** (19.24%)
 
 ### Malicious URL Blocklist URLHaus
 
-- Raw rules: **1,881**
-- Normalized domains: **1,881**
-- Unique domains contributed: **546** (29.03%)
-- Overlap with other lists: **1,335** (70.97%)
+- Raw rules: **1,885**
+- Normalized domains: **1,885**
+- Unique domains contributed: **541** (28.70%)
+- Overlap with other lists: **1,344** (71.30%)
 
 ### ROad-Block Romanian Adblock
 
