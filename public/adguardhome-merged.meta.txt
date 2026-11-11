@@ -1,7 +1,7 @@
-compiled_at_utc=2026-11-10T13:06:02Z
+compiled_at_utc=2026-11-11T06:35:46Z
 profile=medium
 sources_file=sources.json
 merged_source=dist/merged-latest.txt
-bytes=18755817
-lines=826176
-sha256=bc6efcd4b4f6fdbb0c2688b61ff87c79ed8e8451cd440ad710b29a2d73f33e31
+bytes=18937792
+lines=835263
+sha256=133b417059389325aef7e396d1cc33a57719cf5e5a450f1efe20a1983c944f96
