@@ -1,26 +1,26 @@
 # AdGuardHome merged list report
 
-Compiled at: `2026-11-17T06:48:09.764Z`
+Compiled at: `2026-11-17T08:36:34.778Z`
 
 ## Output
 
 - Latest merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-latest.txt`
-- Stamped merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-2026-11-17T06-48-09-764Z.txt`
-- Output bytes: **19,058,276**
-- Output non-comment rules: **837,378**
-- Output unique textual rules: **837,378**
-- Output normalized domains: **835,098**
+- Stamped merged file: `/home/aniculescu/projects/adguardhome-lists/dist/merged-2026-11-17T08-36-34-778Z.txt`
+- Output bytes: **19,060,787**
+- Output non-comment rules: **837,488**
+- Output unique textual rules: **837,488**
+- Output normalized domains: **835,208**
 
 ## Input summary before HostlistCompiler
 
 - Sources: **20**
-- Raw non-comment rules: **1,550,423**
-- Sum of unique textual rules per source: **1,550,422**
-- Global unique textual rules: **1,054,651**
-- Duplicate textual entries across sources: **495,771** (31.98%)
-- Sum of normalized domains per source: **1,548,304**
-- Global unique normalized domains: **938,044**
-- Duplicate normalized-domain entries across sources: **610,260** (39.41%)
+- Raw non-comment rules: **1,550,519**
+- Sum of unique textual rules per source: **1,550,518**
+- Global unique textual rules: **1,054,769**
+- Duplicate textual entries across sources: **495,749** (31.97%)
+- Sum of normalized domains per source: **1,548,400**
+- Global unique normalized domains: **938,168**
+- Duplicate normalized-domain entries across sources: **610,232** (39.41%)
 
 ## List usefulness
 
@@ -30,15 +30,15 @@ Sorted by unique normalized domains contributed.
 
 - Raw rules: **353,910**
 - Normalized domains: **353,910**
-- Unique domains contributed: **186,068** (52.57%)
-- Overlap with other lists: **167,842** (47.43%)
+- Unique domains contributed: **186,074** (52.58%)
+- Overlap with other lists: **167,836** (47.42%)
 
 ### HaGeZi Pro++
 
 - Raw rules: **265,882**
 - Normalized domains: **265,882**
-- Unique domains contributed: **88,406** (33.25%)
-- Overlap with other lists: **177,476** (66.75%)
+- Unique domains contributed: **88,405** (33.25%)
+- Overlap with other lists: **177,477** (66.75%)
 
 ### ShadowWhisperer Tracking List
 
@@ -49,17 +49,17 @@ Sorted by unique normalized domains contributed.
 
 ### Phishing Army
 
-- Raw rules: **144,563**
-- Normalized domains: **144,563**
-- Unique domains contributed: **61,524** (42.56%)
-- Overlap with other lists: **83,039** (57.44%)
+- Raw rules: **144,586**
+- Normalized domains: **144,586**
+- Unique domains contributed: **61,553** (42.57%)
+- Overlap with other lists: **83,033** (57.43%)
 
 ### AdGuard DNS filter
 
-- Raw rules: **190,665**
-- Normalized domains: **189,894**
-- Unique domains contributed: **46,317** (24.39%)
-- Overlap with other lists: **143,577** (75.61%)
+- Raw rules: **190,725**
+- Normalized domains: **189,954**
+- Unique domains contributed: **46,372** (24.41%)
+- Overlap with other lists: **143,582** (75.59%)
 
 ### Steven Black hosts
 
@@ -77,10 +77,10 @@ Sorted by unique normalized domains contributed.
 
 ### OISD Blocklist Big
 
-- Raw rules: **228,244**
-- Normalized domains: **228,244**
-- Unique domains contributed: **22,647** (9.92%)
-- Overlap with other lists: **205,597** (90.08%)
+- Raw rules: **228,257**
+- Normalized domains: **228,257**
+- Unique domains contributed: **22,641** (9.92%)
+- Overlap with other lists: **205,616** (90.08%)
 
 ### The Big List of Hacked Malware Web Sites
 
