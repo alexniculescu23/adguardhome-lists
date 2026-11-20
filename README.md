@@ -49,8 +49,10 @@ The report shows how useful each list is:
 
 ## Requirements
 
+Node.js `^22.22.2` or `>=24` (Node 23 is not supported by hostlist-compiler 3.x).
+
 ```bash
-npm i -g @adguard/hostlist-compiler
+npm i -g @adguard/hostlist-compiler@3.0.0
 ```
 
 ## New PC setup
@@ -58,12 +60,12 @@ npm i -g @adguard/hostlist-compiler
 ```bash
 git clone https://github.com/alexniculescu23/adguardhome-lists.git
 cd adguardhome-lists
-npm i -g @adguard/hostlist-compiler
+npm i -g @adguard/hostlist-compiler@3.0.0
 chmod +x build-and-publish.sh
 ./build-and-publish.sh
 ```
 
-GitHub push requires a Personal Access Token or GitHub CLI authentication.
+GitHub push uses an SSH key via `remote.origin.pushurl`; see `NEW-MACHINE-SETUP.md` for the full setup.
 
 ## Important
 
